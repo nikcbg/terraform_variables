@@ -1,5 +1,4 @@
-# My undestanding of declared variable in Terraform.
-
+# Example with declared variable in Terraform.
 variable "test" {
   default = {
     key1 = "val1"
@@ -13,8 +12,8 @@ output "display" {
   value = "${var.test}"
 }
 
-# My undestanding of input varuable in Terraform.
 
+# Example of input varuable in Terraform.
 variable "type_something" {
   type = "string"
 }
